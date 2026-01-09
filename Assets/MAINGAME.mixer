@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!243 &-1735333027118069737
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gem
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 72059369c52bdf44db7ceeea6e1b51bd
+  m_Children: []
+  m_Volume: 5f26740c578379a489c419c5e6d5b919
+  m_Pitch: c1a22e0eb041afa41b46ce6e5d1c8c9b
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 1521740311105580982}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -20,6 +39,7 @@ AudioMixerController:
   - guids:
     - 407ebda09d00dd04e888887355b178c6
     - 2cf478cf8b675cd4c92b086a2dcc7ba1
+    - 72059369c52bdf44db7ceeea6e1b51bd
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -34,6 +54,7 @@ AudioMixerGroupController:
   m_GroupID: 407ebda09d00dd04e888887355b178c6
   m_Children:
   - {fileID: 8556210025870448013}
+  - {fileID: -1735333027118069737}
   m_Volume: def3235f51837094f82111bc325d52c4
   m_Pitch: 222ea2a7abe8a494e9d46e2a45d4837b
   m_Send: 00000000000000000000000000000000
@@ -79,6 +100,20 @@ AudioMixerEffectController:
   m_EffectID: a29a7fa336dfd5f45afb443afe66d8c7
   m_EffectName: Attenuation
   m_MixLevel: 33f8f26dde8272b4b9427209bca892f9
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &1521740311105580982
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 3b6ab654381a9ae4b983a9cbed0ddcf1
+  m_EffectName: Attenuation
+  m_MixLevel: 565d247838a7d42479164e810b0a9048
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
